@@ -1,0 +1,29 @@
+﻿# Eclipse
+.classpath
+.project
+.settings/
+
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# Maven
+log/
+target/
+
+# Gauge-specific files
+**/reports/**
+**/out/**
+*.log
+**/gauge-bin/**
+**/performance-report/aggregate.csv
+
+# MAC
+.DS_Store
+
+# Hidden Properties
+**/password.properties
+
+**/failures.json
+**/lastRunCmd.json
